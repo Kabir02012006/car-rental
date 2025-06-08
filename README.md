@@ -1,3 +1,10 @@
+Live Website: https://thekabir.shop
+
+- Student Name: Kabir Singh
+- Student ID: 34969497
+
+<hr>
+
 ## Introduction
 
 This documentation details the deployment process of a cloud server hosted on an Azure Virtual Machine (VM). The application provides a login interface, demonstrating basic web server setup and configuration. This guide covers the VM creation, environment setup, Node.js installation, process management using pm2, and configuring Nginx as a reverse proxy for secure and reliable access.
