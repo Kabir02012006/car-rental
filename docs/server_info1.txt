@@ -1,0 +1,40 @@
+Distributor ID: Ubuntu
+Description: Ubuntu 22.04.5 LTS
+Release: 22.04
+Codename: jammy
+
+Kernel Version:
+6.8.0-1029-azure
+
+Node.js Version:
+v18.20.8
+
+npm Version:
+10.8.2
+
+pm2 Version:
+6.0.6
+
+Nginx Version:
+nginx version: nginx/1.18.0 (Ubuntu)
+
+Firewall Status:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80                         ALLOW IN    Anywhere
+22                         ALLOW IN    Anywhere
+80,443/tcp (Nginx Full)    ALLOW IN    Anywhere
+80 (v6)                    ALLOW IN    Anywhere (v6)
+22 (v6)                    ALLOW IN    Anywhere (v6)
+80,443/tcp (Nginx Full (v6)) ALLOW IN    Anywhere (v6)
+
+
+Azure VM Public IP:
+52.247.228.100
+Last Updated:
+Thu May 29 20:10:19 UTC 2025
